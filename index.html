@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<ul class="menu">
+			<li><a href="">Меню</a></li>
+			<li><a href="">Адрес</a></li>
+			<li><a href="">Контакты</a></li>
+		</ul>
+	</header>
+	<hr>
+	<section class="screen1">
+		<div>
+			<p>Как насчёт отвлечься и углубиться в увлекательное путешествие по культурному наследию?</p>
+			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active" data-bs-interval="5000">
+					<img src="img/picture1.png" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item" data-bs-interval="5000">
+					<img src="img/picture1.png" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/picture1.png" class="d-block w-100" alt="...">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Предыдущий</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Следующий</span>
+				</button>
+			</div>
+			<p>Или всё таки поохотиться на дикого и огромного мамонта.....</p>
+		</div>
+	</section>
+	<section class="screen2">
+		<div>
+			<img class="picture1" src="img/picture2.png" alt="">
+			<p class="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum. <br> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				Подробнее
+			  </button></p>
+		</div>
+		<div>
+			<img class="picture2" src="img/picture1.png" alt="">
+			<p class="desc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum. <br> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+				Подробнее
+			  </button></p>
+
+		</div>
+		<div>
+			<img class="picture3" src="img/picture3.png" alt="">
+			<p class="desc3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum. <br> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+				Подробнее
+			  </button></p>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Информация</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+				</div>
+				<div class="modal-body">
+				  <img src="img/picture2.png" alt="">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Информация</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+				</div>
+				<div class="modal-body">
+				  <img class="picture2" src="img/picture1.png" alt="">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Информация</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+				</div>
+				<div class="modal-body">
+				  <img class="picture2" src="img/picture3.png" alt="">
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</section>
+	<section class="screen3">
+		<div class="info1">
+			<h1>Информация об экскурсиях</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+		</div>
+		<div class="info2">
+			<h1>Режим работы музеев</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+		</div>
+		<div class="info3">
+			<h1>Предстоящие мероприятия</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tellus sit amet quam facilisis interdum. Nullam porta, ante at molestie sagittis, ipsum neque tincidunt nibh, in tempor nulla justo nec nulla. Curabitur eu blandit libero. Duis vitae risus vitae mi hendrerit faucibus at vitae nunc. Aenean vestibulum purus quam, a ultricies orci tincidunt nec. Integer porta erat eu dui scelerisque, non congue quam mattis. Integer pellentesque odio id lorem efficitur bibendum.</p>
+		</div>
+	</section>
+	<section class="screen4">
+		<p>Если вы дошли до данного экрана, возможно вы уже заинтересовались народным искусством. 
+			Может уже пора прикупить билетик?
+			Кстати с помощью формы снизу можно прикупить билетик, но это секретик
+		</p>
+		<br>
+		<br>
+		<form id="form" class="g-3 needs-validation" novalidate>
+			<div class="col-md-4">
+			  <label for="validationCustom01" class="form-label">Имя</label>
+			  <input type="text" class="form-control" id="validationCustom01" value="" required>
+			  <div class="valid-feedback">
+				Все хорошо!
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <label for="validationCustom02" class="form-label">Фамилия</label>
+			  <input type="text" class="form-control" id="validationCustom02" value="" required>
+			  <div class="valid-feedback">
+				Все хорошо!
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  <label for="validationCustom04" class="form-label">Мероприятие</label>
+			  <select class="form-select" id="validationCustom04" required>
+				<option selected disabled value="">Выберите...</option>
+				<option>Мероприятие 1</option>
+				<option>Мероприятие 2</option>
+				<option>Мероприятие 3</option>
+			  </select>
+			</div>
+			<br>
+			<button class="btn btn-primary" type="reset">Очистить форму</button>
+		  	<button class="btn btn-primary" type="submit">Отправить форму</button>
+		  </form>
+		  <div class="col-12">
+		  <button id="btn" class="btn btn-primary" type="button">Убрать или показать форму</button>
+	  	  </div>  
+	</section>
+	<section class="screen5">
+
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
